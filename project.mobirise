@@ -1,0 +1,2235 @@
+{
+  "settings": {
+    "name": "Can Nefs ve Nefes",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "spacem",
+      "title": "SpaceM",
+      "styling": {
+        "primaryColor": "#ff9103",
+        "secondaryColor": "#46004C",
+        "successColor": "#2BE080",
+        "infoColor": "#1A5CEB",
+        "warningColor": "#E0C119",
+        "dangerColor": "#EB5A1A",
+        "titleFont": "Arapey",
+        "subtitleFont": "Lato",
+        "textFont": "Lato",
+        "isRoundedButtons": true
+      },
+      "additionalSetColors": [
+        "#ff9103",
+        "#fc9700"
+      ]
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 44,
+    "versionPublish": "4.5.2"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#c97800"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ed8e00!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fc9700"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ffffff"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fc9700",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">İLETİŞİM</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cannefsvenefes-logo-5-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-0"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "3",
+            "showTitle": true,
+            "showSubtitle": false,
+            "showButtons": false,
+            "showMedia": false,
+            "imageSize": 50,
+            "inverse": true,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-2000x1333.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.2"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=axMabrSDrI8",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\"><i><br></i></span><span style=\"font-weight: normal;\"><i>Can Nefs ve Nefes</i></span><br><span style=\"font-weight: normal;\"><i><br></i></span>",
+          "text": "Full-width intro with parallax background and media on the right side. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, totam sit! Ut perspiciatis sint minima, a, consequatur maxime minus neque voluptatem laborum distinctio amet. Ea deleniti sed, commodi aperiam! Harum excepturi ipsa temporibus sit, natus illum expedita officiis doloribus a aspernatur",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2",
+          "_styles": {
+            "H1": {
+              "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#000000",
+              "font-size": "80px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6"
+          },
+          "title": "<span style=\"font-weight: normal;\"><br></span><br><span style=\"font-weight: normal;\">Aslı Ünal Can</span>",
+          "text": "2002 yılından beri vermekte olduğum Yoga derslerime, 2013 yılında, sözlü geleneğin en kıymetli öğreticilerinden Ferhan Yüksel'le öğrenmeye başladığım ve Dr Somit Kumar’la öğrenmeye devam ettiğim Ayurvedik disiplini de entegre ettim.\n<br>\n<br>3 yıldır \"AyurYogik\" adını verdiğim, kendi oluşturduğum bir sistemle 1, 3 ve/veya 5 günlük terapi+inziva programları yapmaktayım. Düzenli yoga ve ayurveda çalışmalarımı yaşadığım şehir olan Ankara'da devam ettirmekle birlikte, sırt çantamla gidebileceğim her yerde <b>Hipokrat'tan İbni Sina'ya Sağlık ve Hastalık</b> söyleşilerini ve <b>Can, Nefs ve Nefes Atölyeleri</b>'ni yapmaktayım.\n<br>\n<br><br>Hipokrat'tan İbni Sina'ya Sağlık ve Söyleşileri'nde, Bütüncül Sağlık Yaklaşımı, kimyasalsız ve GDOsuz tarifler, doğru egzersiz önerileri, bedendeki enerji hatları, süne vs. konuşuyoruz. Tüm içerik kendi sağlık arayışım süresince yaptığım araştırmalar, görüşmeler ve eğitimler sonucunda oluşmuştur. Deneyimimi paylaşıyorum. Bu söyleşilerin gelirleri sosyal sorumluluk projelerine aktarılmaktadır. \n<br>\n<br>Can, Nefs ve Nefes Atölyeleri'nde, ayurveda ve yoga ile harmanlanmış iyileşme araçları kullanılmaktadır. Hedef, bedeni, zihni ve ruhu hafifletmektir. Her atölye sonunda, tüm katılımcılar için yaşam kalitelerini en yüksek seviyede tutmalarını sağlayabilecek \"İyi Yaşama Programları\" ortaya çıkmaktadır. Bu atölye 8 kişi ile sınırlıdır ve ücretlidir.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-3",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "17px",
+              "text-align": "left",
+              "color": "#000000"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "SPAN": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#e5e5e5",
+            "overlayOpacity": "0.6"
+          },
+          "title": "<span style=\"font-weight: normal;\">Atölye Hakkında</span>",
+          "text": "Her atölye bir öncekinden, bir unsuru ile farklı olacak, kimi zaman konuk hocalarım olacak. İçeriği anlatmaya dilimi döndüremedim. <br>Batı'dan Doğu'ya, Doğu'dan Uzakdoğu'ya iyileşme araçlarını harmanladım. Bedeni, zihni, ruhu hafifletmeyi hedefledim.\n<br>\n<br>Adına <b>\"Can, Nefs ve Nefes\"</b> dedim. Adı gibi bir çalışma çıktı ortaya...\n<br>\n<br>\n<br><b>Atölye tarihleri</b>\n<br>\n<br><b>26 Ağustos 2017    Cts.</b>&nbsp; 11:00-14:00 &nbsp;&nbsp;<b>ANKARA</b>\n<br><b>23 Eylül 2017    Cts.&nbsp;</b> 11:00-14:00 &nbsp;<b>ANKARA</b>\n<br><b>18 Kasım 2017    Cts.</b>&nbsp; 13:00-16:00 &nbsp;&nbsp;<b>ANKARA</b>\n<br>\n<br><b>6 Ocak 2018    Cts.&nbsp;</b> 13:00-16:00 &nbsp;<b>İSTANBUL</b>\n<br><b>16 Şubat 2018    Cuma</b>&nbsp; 11:00-14:00 &nbsp;<b>ANKARA</b>\n<br><b>17 Mart 2018    Cts.&nbsp;</b> 11:00-14:00 &nbsp;<b>ESKİŞEHİR</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">download now</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "text1",
+          "_anchor": "text1-4",
+          "_styles": {
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "36px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "17px",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "4",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\" class=\"text-danger\">DERSLER &gt;&gt;&gt;<br><span></span></a>",
+          "textL1": "<p><b>Orta - İleri Seviye YOGA &nbsp;(ANKARA)</b><span style=\"background-color: inherit;\"></span></p><p><b>SALI</b>&nbsp; Saat: 10:30\n</p><p>\n<span style=\"background-color: inherit;\"><b>SALI</b>&nbsp; Saat: 19:30&nbsp;</span></p><p><b>\n</b><span style=\"background-color: inherit;\"><b>PERŞEMBE</b>&nbsp; Saat: 10:30&nbsp;</span></p><p><b>\n</b><span style=\"background-color: inherit;\"><b>CUMARTESİ</b>&nbsp; Saat: 10:30</span></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\" class=\"text-danger\">AYURVEDİK BEDEN TERAPİLERİ &gt;&gt;&gt;<br><span></span></a>",
+          "textL2": "<p>Ayurvedik Beden Terapileri için randevu alınmalıdır.</p><p>\n<span style=\"background-color: inherit;\"><b>ÇARŞAMBA</b>&nbsp; Saat:&nbsp;</span><span style=\"background-color: inherit;\">10:30-16:00&nbsp;</span></p><p><b>\n</b><span style=\"background-color: inherit;\"><b>CUMARTESİ</b>&nbsp; Saat:&nbsp;</span><span style=\"background-color: inherit;\">13:00- 15:00</span></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\" class=\"text-danger\">ATÖLYELER &gt;&gt;&gt;<br><span></span></a>",
+          "textL3": "<p><b>Can, Nefs ve Nefes Atölyesi\n</b> /&nbsp;<span style=\"background-color: inherit;\">\"Afrika Tınıları\" / 26.08.2017 /&nbsp;</span><span style=\"background-color: inherit;\">10:30-13:00 / ANKARA</span></p><p><span style=\"background-color: inherit;\">Çağdaş Yaşamı Destekleme Derneği için <b>Karma YogaAyurveda</b> / 18.09.2017 / 11:00-13:00 / ANKARA</span><br></p><p><b>\n</b><span style=\"background-color: inherit;\"><b>Can, Nefs ve Nefes Atölyesi</b> &nbsp;/&nbsp;</span><span style=\"background-color: inherit;\">\"Sufi Esintileri\" /&nbsp;</span><span style=\"background-color: inherit;\">23.09.2017 /&nbsp;</span><span style=\"background-color: inherit;\">10:30-13:00 / ANKARA</span></p><p><span style=\"background-color: inherit;\"><br></span><span style=\"background-color: inherit;\"><b>Can Nefs ve Nefes Atölyesi</b> /&nbsp;</span><span style=\"background-color: inherit;\">16 Şubat 2018 Cuma / 11:00-14:00 / ANKARA&nbsp;</span></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\" class=\"text-danger\">ŞEHİR DIŞI ETKİNLİKLER &gt;&gt;&gt;<br><span></span></a>",
+          "textL4": "<p><b>Hipokrat'tan İbn-i Sina'ya Sağlık ve Hastalık</b> / Sokak Yogası Günleri (KÖYCEĞİZ)\n / 1.10.2017<span style=\"background-color: inherit;\">&nbsp;&nbsp;</span></p><p><b>Ayurvedik Beden Terapileri</b> / Sokak Yogası Günleri (KÖYCEĞİZ)\n /&nbsp;<span style=\"background-color: inherit;\">1-7.10.2017&nbsp;</span></p><p><b>Hipokrat'tan İbn-i Sina'ya Sağlık ve Hastalık</b>&nbsp; /&nbsp;<span style=\"background-color: inherit;\">(İSTANBUL) Atölye Marga /&nbsp;</span><span style=\"background-color: inherit;\">6.01.2018 Cts. &nbsp;10:00 - 12:00&nbsp;</span></p><p><b>Can Nefs ve Nefes Atölyesi</b>&nbsp;/ (İSTANBUL) Atölye Marga\n /&nbsp;<span style=\"background-color: inherit;\">6.01.2018 Cts  13:00 - 16:00 &nbsp;&nbsp;</span></p><p><b>Can Nefs ve Nefes Atölyesi</b>\n /&nbsp;<span style=\"background-color: inherit;\">(ESKİŞEHİR) /&nbsp;</span><span style=\"background-color: inherit;\">17 Mart 2018 Cts  11:00-14:00</span></p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_anchor": "accordion1-8",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left",
+              "color": "#000000"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "tavsiyemdegiltercihim",
+        "order": 2
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#c97800"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ed8e00!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fc9700"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ffffff"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fc9700",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">İLETİŞİM</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cannefsvenefes-logo-5-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-b"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "showTitle": false,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/1-700x467.png",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<em>SpaceM</em> Page Builder",
+          "text": "<b>EV YAPIMI, DOĞAL DİŞ MACUNU</b><br><br>Sadece 3 Malzeme: • Hindistan cevizi yağı • Nane yaprağı yağı • İngiliz Karbonatı\n<br>Piyasadaki diş macunlarında bulunan flor/ün:\n<br>• bağışıklık sistemini çökertir; enfeksiyonlara karşı direnci düşürür.\n<br>• kanserojen özelliklere sahiptir. \n<br>• üreme sistemine zarar verdiği görülmüştür.\n<br>• tiroid hormon sentezini azaltarak hipotiroidiye yol açabilir.\n<br>• kullanılması, kalıcı dişlerin çıkmasını geciktirmektedir.\n<br>• kemikleri güçsüzleştirmektedir.<br> ",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-13",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "17px",
+              "color": "#000000"
+            },
+            "B": {
+              "font-size": "18px",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "showTitle": false,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/2-1-700x467.png",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000000",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<em>SpaceM</em> Page Builder",
+          "text": "<b>DÜN İLK CEMRE DÜŞTÜ...\n</b><br>\n<br>Toprak ana kış boyu hazırladığı armağanlarını gün yüzüne çıkartmaya başlıyor. Doğada ihtiyacımız olan tüm besinler gibi ilaçlar da mevcut. Otuyla, çöpüyle kocaman bir açık hava eczanemiz var. Adaçayını ister çay yapar içerim, ağrılarım, kramplarım hafifler. Ödem atarım. Hafiflerim. İstersem de tütsü yapar yakarım. Evimin, bedenimin, işimin enerjisini temizler, ağırlıklarını attırır, huzur verir. Elbette nasıl ki herhangi bir eczane ilacını alıp da ezbere kullanamıyorsak, doğa eczanesine de aynı korunaklı tavırla yaklaşmalı, bilmeden, araştırmadan, sorup soruşturmadan kullanmamalıyız. Ben şimdi dünkü yoğun ders, terapi ve eğitim programı sonrası stüdyomu, kendimi ve evimi tütsüledim. İçimde bir huzur, dilimde bir şarkı:\n<br>\n<br>Adalardan bir çay gelmiş bizlere...<b>&nbsp;</b><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-14",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "17px"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "showTitle": false,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/3-1-700x467.png",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<em>SpaceM</em> Page Builder",
+          "text": "<b>QUARK SARGISI</b>\n<br>\n<br>Yağı alınmış, ve laktik asit bakterileri ile peynir mayası eklenmiş süt yiyeceği olan quark, içindeki yüksek protein nedeniyle birçok sporcu tarafından tüketilmekte. Ancak ben burada başka bir kullanım şeklinden bahsedeceğim.\n<br><br>Nerede okudum hatırlamıyorum ama tarif defterime not almışım. Dinmek bilmez ağrı merkezim, sol kol ve omuzum yeniden ağrımaya başlayınca denedim. Gerçekten ağrıyı hafifletince dur dedim bir de dişime deneyeyim. Dışarıdan dişimin denk geldiği bölgeye sürüp, kalanını da yedim. Açık yara olmamak şartıyla, güneş yanığı, sinek böcek ısırığı, boğaz ağrısı ve/ya eklem ağrısı durumlarında, oda sıcaklığında quarkı, temiz bir beze sürüp, uygulanacak bölgeye koyuyoruz. Sargı bezi ile sabitlenebilir. Orada 20 dk tutuyoruz. Sonra bölgeyi temizliyoruz. Dikkat: açık yara olmayacak ve süt proteinine karşı vb alerji varsa kullanılmayacak... Başka yan etkisi varsa da bilmiyorum. Hiçbir bilgiyi olduğu gibi alıp, kabullenmeyelim zaten. Kendi araştırmamızı yapalım, sorgulayalım. <br>Olursa ne mutlu olur, şifa olur...\n<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-15",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "17px",
+              "color": "#000000"
+            },
+            "B": {
+              "font-size": "18px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "spacing": "4",
+            "paddingTop": "4",
+            "paddingBottom": "1",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/1-2-1333x1333-800x800.png",
+                "alt": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/2-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2-2-1333x1333-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/3-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/3-2-1333x1333-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/4-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/4-2-1333x1333-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg",
+          "allItem": "All",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-16"
+        },
+        {
+          "_params": {
+            "showBullets": true,
+            "spacing": "4",
+            "paddingTop": "0",
+            "paddingBottom": "4",
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/4-2-1333x1333-800x800.png",
+                "alt": "",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/1-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/1-2-1333x1333-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/2-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/2-2-1333x1333-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/3-2-1333x1333.png",
+                "thumb": "@PROJECT_PATH@/assets/images/3-2-1333x1333-800x800.png",
+                "alt": "",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "articleLayout": false,
+          "arrowLeft": "@PROJECT_PATH@/assets/images/arrow-left.svg",
+          "arrowRight": "@PROJECT_PATH@/assets/images/arrow-right.svg",
+          "allItem": "All",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_anchor": "gallery2-17"
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "title": "kalbimlesohbetler",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#c97800"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#ed8e00!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fc9700"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".navbar-toggler i, .navbar-toggler em, .navbar-toggler i:before, .navbar-toggler em:before, .navbar-toggler i:after, .navbar-toggler em:after": {
+              "background": "#ffffff"
+            },
+            ".navbar-toggler[aria-expanded=\"true\"] i, .navbar-toggler[aria-expanded=\"true\"] em": {
+              "background": "transparent"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#222"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#222!important"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "sticky": true,
+            "transparent": false,
+            "bgColor": "#fc9700",
+            "fontSize": "0.75",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#222"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">İLETİŞİM</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cannefsvenefes-logo-5-455x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-c"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1624x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.5"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#222222"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-d"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": "1",
+            "tabsLeft": "6",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">KalbİNİ bİrİne verme, kalbİne bİrİnİ al ...<br><span></span></a>",
+          "textL1": "<p>Bir arkadaşım yazmıştı dün; \" Kalbini birine verme, kalbine birini al\" diye... Malum, mübarek sevgililer günü kapıda. \n</p><p>Sonra, sevmek gerek diyordu sevgili Ali Denizci. Çok sevmek gerek. \n</p><p>\n</p><p>Yaratılmış her şeyi kendinmiş gibi sevmek. \n</p><p>Sadece bir insanı değil, ağacı, suyu, gök maviyi, yer sarıyı sevmek. \n</p><p>En zoru da kendini sevmek. \n</p><p>Kimbilir belki bir gün severiz kendilerimizi... \n</p><p>Şartsız, koşulsuz. \n</p><p><b>İyi geceler kal... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Do what you love, Love what you do ...<br><span></span></a>",
+          "textL2": "<p>Günaydın kalbim... Hello Monday...  \n</p><p>İnsanın sevdiği işi yapması ya da yaptığı işi sevmesi çok önemli. Bundan 12 yıl önce, 8 yıllık üniversite okutmanlığını 30 saniye içinde bitirdiğim iş hayatımın özgür ilk gününü hiç unutamam. Bazı insanların durum şarkıları vardır. Bir durum yaşanırken, bir olayın içindelerken zihinlerinde çalar bu şarkı. Bazen birden fazladır. Üzgün anlar için bir tane, mutlu anlar için başka bir tane vb. … \n</p><p>Benim mutlu ruh hali durum şarkım çalıyordu zihnimde, istifamı verip, taksiye atladığım o gün. Gökyüzü hiç görmediğim kadar mavi, ağaçlar hiç farketmediğim kadar yeşildi. Yüzümde engel olamadığım bir gülümseme, hatta belki bir sırıtış… Ve zihnimde o şarkım: Fly me to the moon, let me play among the stars… Umarım mutluluk şarkılarımız her pazartesi, her salı ve haftanın her günü çalar zihinlerimizde. Ve o mutluluk sırıtışı hiç eksik olmaz yüzlerimizden. \n</p><p>Herkesin sevdiği işi yapabilmesi dileğiyle… \n</p><p>Her haftanız iyi bir hafta olsun, hayır hayır muhteşem bir hafta olsun \n</p><p><b>Do what you love, Love what you do... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Surrender ...&nbsp;<br><span></span></a>",
+          "textL3": "<p><span style=\"background-color: inherit;\"><b>\"İyi yüzme bilmeyen. El çırpınca batarmış. Teslim olunca suya. Deniz onu kaldırırmış...\"&nbsp;</b></span><br></p><p><i>(Çağrı Dörter, Aşk ve Ejder)\n</i></p><p>Tüm kırıklarına teslim olabilmen dileğimle..</p><p><b>iyi geceler kalbim ❣️</b></p><p>\n</p><p><br></p><p><b><br></b></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">reyhanlı şurup ...<span></span></a>",
+          "textL4": "<p>Bu hafta sonu reyhan, kuzu kulağı ve frenk soğanı çalıştık Asya ile. Çünkü ben yaşamı, toprak anayı, börtüyü böceği anlatabiliyorum. Matematikten, fenden pek anlamıyorum. Önümüzdeki haftadan itibaren snapchatten iksir videolarımıza başlayacağız. İlki reyhanlı şurup. Yazın soğuk, kışın sıcak içilir. Her türlü nefis gider. Reyhan nedir, ne işe yarar? Fanta manta varken niye bunu yapıp içiyoruz? Asya anlatır artık bizlere. </p><p>Artık güzel şeyler olsun değil mi bu güzel topraklarda... Şifa olsun, bereket olsun, refah olsun, aşk olsun. </p><p>Kaygı duymadan, mutlu olmaktan korkmadan yaşayalım. Mutlu olalım... çok mutlu olalım. </p><p>Canım #nazimhikmet 'in dediği gibi; </p><p>\"Bahardı sevgilim bahardı ve bahtiyar olmak için toprakta, havada, suda her şey vardı sevgilim, her şey hazırdı, her şey vardı.\" </p><p>Her şey vardı da, bir tatlı huzur yoktu. O da olsun artık. </p><p><b>İyi geceler kalbim. Kûn fe yekûn ❣️</b></p><br><p><b><br></b></p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Yİne kendİme ...<br><span></span></a>",
+          "textL5": "<p>Bu sene, öğrenip sıramı savdım sandığım, oldukça önemli yaşam dersleri aldım. </p><p>Bazıları çok bilindik bir tat bırakırken nefsimde, “bu kadarı da olmaz” dedirtenler oldu. Fark edince, ee Aslı, hani kurbanlık yoktu? dedim. </p><p>Beyaz ve siyahın çok net olduğu bir anda, en yakınımdakilerin gri olmamasını bekledim. Fark edince, beklentisiz olmayı öğretmiyor muydun sen? dedim. Kendime. K</p><p>endi kendime daha çok konuşur oldum. </p><p>Nerede ve nasıl başladığını unutan öğrencilerim olduğunu gördüğümde, her yolun, yolcusunun yürüyebileceği kadar olduğunu unuttum. Öğretiyi aktarışımı eksik gördüm. </p><p>Çocukluk dönemi hasarlarımın, yetişkinlik dönemime uyarlanmış versiyonlarını alırken buldum kendimi. Demek okul bitmemişti. </p><p>Biter mi hiç? </p><p>Fark edince, ulen ne güzel fark ediyorsun, bu da bir şeydir, hem de ne mühim bir şeydir, dedim. </p><p><b>Yine kendime... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">a Rocking New Year ...&nbsp;<span></span></a>",
+          "textL6": "<p>Bunları okurken dram kokusu alan olabilir. Hiç öyle bir ruh hali ile yazmıyorum. Bu keşiflerin hayatıma kattığı güzellikleri kutsamak için yazıyorum bunları. Her deneyime ve bunlardan geçmeme vesile olan, eli sopalı ya da gül kokulu tüm öğret/m/enlerime teşekkür yazısı bu, aslında. </p><p>Güzeldi bu yolu yürümesi, yine olsun, yine yürürüm de; tüm bu yıllar boyunca kendimi dövdüğüm kadar sevmemişim. Sonra, vay efendim, niye boynum fıtık oldu, niye dizim ağrıyor, vs... Yüklenme kendine, yüklenmeyelim kalbim. Derslerimde yaptırdığım yeni yıl çalışmalarından biri olan “Yaratım Meditasyonu”nda bu sefer, kendimle ilgili tüm sözcüklerime, duygularıma, düşüncelerime ve eylemlerime, şefkati, nezaketi ve sevgiyi davet ettim.&nbsp;<span style=\"background-color: inherit;\">Sen bunların hepsini hak ettiğine inanmazsan, yaşamındaki diğer insanları buna nasıl inandırırsın ki, dedim. </span></p><p><span style=\"background-color: inherit;\">Aralık ayı bitmeden, hemen yarından itibaren, her sabah dilinizi kazıyın. Söylediğiniz acı sözlerin acısını alır, ve de söyleyemeyip yuttuklarınızın yükünü. Kendinizi ve evlerinizi sirkeli sularla temizleyip, adaçayı, defne ya da üzerlik ile tütsüleyin. Saçlarınızı biraz ya da epey kestirin. Saça tutunur nazar, kestir ucundan azar azar, demişler. </span></p><p><span style=\"background-color: inherit;\">Mucizelerle dolu, şahane bir yıl dilerim. </span></p><p><span style=\"background-color: inherit;\">Dilerim; kalbinizdekiler, hakkınızda hayırlı olandır ve hakkınızda hayırlı olanlar, kalbinizdekidir</span></p><p><span style=\"background-color: inherit;\"><b>WishUaRockingNewYear</b>&nbsp;❣️</span></p><br><p><span style=\"background-color: inherit;\"><br></span></p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#222222"
+            }
+          },
+          "_anchor": "accordion1-e"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-4-1620x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#594d04"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-f"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "3",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">tam böyle kal ...<br><span></span></a>",
+          "textL1": "<p>Şimdi ben nasıl derim dünya kötü, insan berbat, gelecek karanlık diye... </p><p>Sen böyle iyi kalpli, iyi ruhlu büyüyüp serpildikçe, duam da büyüyor, dilimden, yüreğimden taşıyor: Işığım Asyam, kalbinin ışıması için kırılmasına gerek kalmasın. İyi bir insan ol, iyi insanlarla ol, çok sev, sevdiğin kadar da sevil. Anne babaya, öğretmene saygıyı, dosta vefayı, toprağa suya, ota böceğe sevgiyi bil. Sana verilmeyeni alma, incitme, biriktirme... </p><br><p><b>Yani tam böyle kal, değişme... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">A.C. ...<br><span></span></a>",
+          "textL2": "<p>Bir kız sevdim.\n</p><p>Gözleri geceden\n</p><p>Kalbi inciden\n</p><p>Düşününce yaşamı\n</p><p>Düşününce insanı\n</p><p>Sızlatır bir gülüşü, burnumun direğini\n</p><p>İnceden inceden...\n</p><p><b>A.C. ❣️</b></p><br><p><b><br></b></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">şükret ...<br><span></span></a>",
+          "textL3": "<p>Şükür enerjisi çok kuvvetlidir. Şükrettikçe artar, çoğalır insan.\n</p><p>\n<span style=\"background-color: inherit;\">Son zamanlarda toplumca yaşadığımız keder ve kaygıdan, birkaç gündür kızımı okul çıkışı alınca nasıl yükseliyor, nasıl büyüyor kalbim anlatamam... Anlatmam zor...&nbsp;</span></p><p>\n<span style=\"background-color: inherit;\">Gri siyah bulutları dağılıyor kafamın, güneşler açıyor içimde. Tüm hücrelerim hep bir ağızdan zikrediyor: çok şükür... Böyle zor zamanlardan geçmemiz gerekmese bunu hissetmek için. Aldığımız her bir nefese, her gülüşe, yaşamımızdaki her iyi insana aynı coşku ile şükredebilsek...&nbsp;</span></p><p>\n<span style=\"background-color: inherit;\">Biliyorum yerküre topyekün rahatlayacak bunu hepimiz, her an yapabilsek. Bu yazıyı okuduysan, gözlerini kapatıp gülümseyebilir misin?&nbsp;</span></p><p>\n<span style=\"background-color: inherit;\">Ve tam şimdi bir şey için şükredebilir, birine teşekkür edebilir misin?&nbsp;</span></p><p>\n<span style=\"background-color: inherit;\"><b>Teşekkür ederim, Namaste... ❣️</b></span></p><br><p><span style=\"background-color: inherit;\"><b><br></b></span></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#222222",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "accordion1-g"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2-1620x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#594d04"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-h"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "6",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">can nefs ve nefes ...<br><span></span></a>",
+          "textL1": "<p>Anlata anlata bir hâl oldun... Anlaya anlaya başka bir hâl. </p><p>Yoga yapmak bir hâldir, yoga yaşamak başka bir hâl. Kendi kelimelerini kullanmak bir hâldir, başkasınınkini sahiplenmek başka bir hâl. İçinde hâlâ çok yabancı hissettiğim \"yoga\" dünyasının içindeki 16. sene dönümümde, 3. Can, Nefs ve Nefes atölyemi yaptım. Yaptığım her ders gibi bunda da kendime bir ders çıkardım: yoga matım kesinlikle en iyi şifacım. </p><p>Uzun yol yapmış tır lastikleri topraklanırmış ya benzinliklerdeki toprak sahalarda.... İşte benim uzun \"yıl\" yapmış kalbimi de yoga matım topraklar öyle. Hafiften sokulup göğsüne, bir gülüverirsem; bin gül açtırıverir dünyamda. Sanki hiç katakulli görmemiş gibi masumlaşır dünyam. Sanki hiç ağlamamışım gibi neşelenir, hiç öfkelenmemişim gibi huzurla dolarım. Biter geri kalan, geride kalır. Her şey saflaşır, dua gibi tertemiz olur. Duam hep aynıdır. Bazen, duruma göre, belki beddualaşır : \"Herkes ne yaşatıyorsa onu yaşasın.\" Atölyemin adındaki Can; görünür, Nefs; görünmez, Nefes ise olmazsa olmaz yanımızı temsil eder. Beden, zihin ve ruh. Kalp eksik mi kalmış? İşte onu da atölyeye gelenler tamamlar. Bir kalp, bir kalp daha, bir kalp daha...\n</p><p>Bu arada, \"4. Can, Nefs ve Nefes\" sürprizli bir yerde... Dım dım dım dıdıımm...&nbsp;</p><p>Her nerede ne yaşatıyorsan, yaşaman dileğiyle, iyi geceler... ❣️</p><br><p><br></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">yeryüzüne dayanabİlmek ...<br><span></span></a>",
+          "textL2": "<p>Geçenlerde Tezer Özlü ile yapılmış bir röportajın bir kısmına denk geldim. </p><p>Muhabir, \"neden edebiyat?\" diye soruyor. Cevap veriyor Tezer hn: Yeryüzüne dayanabilmek için... </p><p>Kendimden bilirim; uzun yazılar, bazen kaçıştır bazen bir sığınış. Gelin kabul edelim; bu dünya o kadar da matah bir şey değil. Yeryüzü değil sorun, üzerini dolduran kimileri. Ama yaşamaya da çok değer. Biriken her bir güzel anı, biriktirilen her bir güzel insan. Bir kez görülmeli bu dünya, tadılmalı, pişilmeli içinde ve belki de yanılmalı ki, asl'olana hazır hale gelinsin. </p><p>Neyse, bugün çok uzatmayayım, söndürmem gereken mumlarım, yemem gereken pastam, açmam gereken armağanlarım var. </p><p>İyi ki doğdun, geldin (kendin ettin), gördün (kendin buldun), sevdin (bazen boşuna), sevildin (bazen öyle zannettin)... Hayat denilen hepi topu bu işte. Etmek, bulmak, sevmek, zannetmek, öğrenmek. Güzel işte; öyle sakin, öyle telaşsız akmayı öğrenmek. Hepi topu hepi to me happy birthday to me... </p><p><b>İşte bunnar hep batı özentisi... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">hayat BİR RÜYA ...<br><span></span></a>",
+          "textL3": "<p>12 yıl önce, beyaz çitli bir bahçe kapısından içeri girdim. Bir derin nefes çektim: \"Burayı yeryüzü cennetim yapmaya niyet ettim Allah'ım, beni hep kalbimden konuştur, seni unutmama izin verme, hayırsız fikri, insanı ve de kazancı bu kapının eşiğinden içeri nasip etme\", dedim... Dediğimde tektim. </p><p>Ne eş dost ne de bir yoldaş vardı yanımda. Zaman geçtikçe, yolumda inançla yürümeye devam ettikçe, bir'ken binbir olduk. Bedenlerimizi, hayatlarımızı birlikte iyileştirmeye çabaladık, kamyonlarca armağan taşındı kapısından mekanımızın. Yüreklerce iyilik yollara çıktı, dağıldı şehrin sokaklarına. Bazen bir mülteci çocuğun çıplak ayağındaki buza çorap olduk, bazen bir üniversiteli öğrenci sofrasına tereyağlı makarna. Şiddet mağduru kadınlara bir derin nefes ve bazense oyuncakla çikolata olduk bebeklerine. </p><p>Yolumda yürürken arada tökezlediğim oldu elbette. Hayırsız fikirlere kapıldığım da oldu, hayırsız kişilere rastladığım da... Eyvallah dedim, silkelendim. Kanatlarım düştü arada, uçamadım. Yattım uyudum o ara. Biraz hasta oldum. Biraz ağladım. Geçti. Geçiyor her şey... Hayat bitiyor. </p><p>Sevdiğin işi yap kalbim, sevdiğin insanla muhabbet et, sevdiğin müziği aç danset... </p><p>İyilik düşün, iyilik konuş, iyilik yap, iyilik bul. Hayat bir rüya, uyanacaksın sonunda. </p><br><p>Hoşçakal, yine gel Cuma...❣️</p><br><p><br></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Ben demedim, kalbİm dedİ ...<br><span></span></a>",
+          "textL4": "<p>Duyalı 40, dinleyeli 20 yıl olmuş...\n</p><p>Dinledikçe yaşamı, yaşananları, kalbimin sularına aldığım notlarım arttı. Kalbimin sularına diyorum çünkü suya yazılan her yazı gibi oluyor sonları. Sonsuza kadar kalır sanıyorum orada, bir bakıyorum silinmiş. Söz gibi uçuyor, suya yazılanlar. Bundan ötürü; önümüzdeki haftadan itibaren #kalbimlesohbetler im, #yolcum ve de #tavsiyemdegiltercihim lerim www.cannefsnefes.com 'da da yer almaya başlayacaklar. Bir iki gündür kafamda dönüp duran cümleler var. Ne bir araya geliyorlar, ne de ayrılıyorlar... Kimilerimiz gibi . Toprak ana ve onun bitki ve hayvan çocukları ile daha iyi ilişki kurdukça, insan çocuklarından uzaklaşıyor, ruh. Daha az insanı yaşamında, yakınında ister oluyor. Otla çöple, börtü böcekle uğraştıkça ben de, işte o kafamda dönüp duran dağınık cümleleri daha çok duyar, ince ve tatlı bir sesten çıkan bir masal gibi dinler oldum:  Söylemlerinle eylemlerin bir olsun.\n</p><p>İnsanlarla ilişkilerinde, ilişkide olduğun kişi, insan olsun.\n</p><p>Söylemleri ile eylemleri bir olanlarla ilişkin olsun.\n</p><p>\n<span style=\"background-color: inherit;\">Ben demedim, kalbim dedi... </span></p><p><span style=\"background-color: inherit;\">Mucizelerle dolu bir hafta olsun ❣️ (bunu ben dedim )&nbsp;</span></p><br><p><span style=\"background-color: inherit;\"><br></span></p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Shanti ...<br><span></span></a>",
+          "textL5": "<p>İnsan savaşacaksa da zamanında savaşmalı... </p><p>Zamanı geriye alamıyorsun, şimdide iken geçmişle savaşırsan mutlaka kaybediyorsun. Lök gibi oturuyor boğazına söyleyemediğin sözler, kuru öksürüğün geçmek bilmiyor. </p><p>Alerji diyorsun. Bazı alerjiler 35inden sonra başlıyormuş diyor birileri. İnanıyorsun. Çünkü artık zamanı ve de savaşı geriye alamıyorsun.</p><p><span style=\"background-color: inherit;\">Benim savaş baltam sessizliktir. Karşımdaki kişinin hayatından, içinde bulunduğumuz duruma teslim olmuş olarak, sessizce çıkarım. Bu durumun oluşmasında payıma düşen ne varsa tüm kalbimle kabul eder ve zaman ilacını sürerim yaralarıma. Adeta eterik bir duvar oluşur aramızda. Tesadüfen bile karşılaşmayız bir yerlerde. Kimi zaman karşıdakinin arkamdan söyledikleri çalınır kulağıma. Güler geçerim. Çünkü bilirim ki; onun da ruhu bende kalan parçalarını aramakta. </span></p><p><span style=\"background-color: inherit;\">Tüm ikili ilişkilerde birbirimizin ruhlarından parçalar çekeriz kendimize. İlk yoga hocalarımdan biri, tanıştığımız zamanlarda içsel savaşlarını henüz tamamlamak yolunda olan, hedonist bir insandı. Şaşırırdım ama uzaklaşamazdım da, çünkü bedensel yogada usta idi. Belki derdim; belki zamanla, bedeni esneyip yumuşadıkça kalbi de yumuşar... Yollarımız ayrıldıktan sonra böyle bir iki sözü çalınınca kulağıma; hah demiştim, ruhunun parçalarının peşinde. Bir gün gözlerimi kapadım, içten bir gülümseme yayıldı yüzüme. Onunla geçirdiğimiz bir çok güzel günden birine gittim. O mutlu halimle kapalı gözlerimin önündeki hayaline seslendim: al ruhunun bende kalanını, ver benimkileri. Gülümsememe engel olamıyordum. Biliyordum artık ikimiz de özgürdük. Artık daha çok yol alabilirdik ikimiz de. Ki öyle de oldu... Değil mi kalbim?</span></p><p><b>Shanti Shanti...</b>&nbsp;❣️</p><br><p><br></p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">alıntı ...<br><span></span></a>",
+          "textL6": "<p>Birazdan yazacağım alıntıyı okuyunca eminim tüm yogacı arkadaşlarımın aklına vishudhha ve anahata gelecektir.</p><p>5. ve 4. çakralar... Tekkeden ashrama, doğudan batıya, gezdikçe, okudukça, tanıdıkça, bilginin \"bir\"liğine bir kez daha şahit oldukça... Diyorum ki; bir, insan bir olamıyor. Bir, insanda bir telaş, bir yer kapmaca, bir köşe dönmece... Bir, insanda bilerek ve isteyerek acıtma. En zor zamanlardan geçiyor olsa da acıtmaya çalışıyor insan diğer insanı. Bir insan, bir toplum oluyor. Bir olmayınca bir insanla diğeri, toplumlar hep ayrı, hep ikilikli. Bitmiyor kavgası insanın. İçindeki kavgası da bitmiyor, dışındaki de. Bakın canım Asu Mansur ne inciler dökmüş #khamkarak ta:\n</p><p>\"<i>... Nazar boncuğu diye bilinen tengri karaklar, tanrı gözü anlamına gelir. ... İnsanın iç doğasında gök, boyun bölgesinden itibaren başlar. Buna istinaden mavi olan nazar boncuğu boyundan yukarı bir yere takılmalıdır. ... Yeşil olanlar ise boyundan aşağı asılmalıdır. Çünkü insanın iç doğasında beden, boyun altından başlar. ...</i> \"\n</p><p>Uzun uzadıya çakra anlatacağına as boncukları as... </p><p>Camdan olsun ama, plastik değil.</p><p>Tıpkı insanın candan olanı gibi. </p><p><b>Hakikisinden olsun. ❣️</b></p><p><br></p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left",
+              "color": "#222222"
+            }
+          },
+          "_anchor": "accordion1-i"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-5-1620x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#632305"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-j"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "4",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Namas Te ...<br><span></span></a>",
+          "textL1": "<p>15 gündür sol kolumu kullanamıyorum. Üstelik bir de solağım. Boynum da hareketsizlik istemekte 15 gündür. Sağına soluna bakma, dik otur, dümdüz yürü diyor. Oturduğum yerden ancak ayak bileklerimi döndürüp, bacaklarımı esnetebiliyorum. Her gün egzersiz yapan birine, işi bu olan birine zor tabii... Kanatlarım düşüyor arada, uçamıyor ruhum. Küser gibi oluyorum her şeye. Sonra diyorum ki, yapma, neler var hayatta. İnsanlar neler yaşıyor... Ama bu da benim kendi evrenim. Herkesin evreni kendine büyük. </p><p>Bir süredir stüdyomuzu kaybetme riski vardı. Site yöneticileri, bir iki meraklı komşu ve güvenlik görevlilerinin, başka hiçbir konuda olmadığı kadar titizlikle çalışmaları neticesinde pes dedim. Aslında pes değil de eyvallah dedim. İçimin bir yanı biliyor ki; güzel bir şeylere hazırlıyor beni bu olanlar. Ama insanız ya, nefs var ya... İşte hep o nefsin suçu . Üzülüyor insan, kırılıyor dalları. Yük ediyor kendine umutsuzluğu, taşıyamıyor boynu, kolları. Sol yana yakın ya kalp. Sol tarafı ağrıyor insanın. Bir işim de bu... Deneyimlediğimiz negatiflerin, görünenin ötesindeki sebeplerine ulaşmak. Her neyse... </p><p>Stüdyomuzun camında şu yazı yazardı. \"Dedikodu yapmayın, insanlık için faydalı işler yapın.\" Çünkü biz hep öyle yaptık, yapmaktayız. Akıl, ruh, beden sağlığı için çabalıyor, sağlıklı toplumlar sağlıklı bireylerden oluşur diyor, bir yandan da ihtiyaç sahipleri için özel çalışmalar yapıyorduk. Yine yapacağız... Yıllardır bu amaçların biri ya da hepsi için bir araya gelmiş, yoga dostluğu yapmış, bir ileri aşamaya geçip ömürlük dostlarım olmuş canım herkes; yeni sezonda, yeni bir mekanda görüşeceğiz. İstiyorum ki huzurlu olsun, neşeli olsun, daim olsun. Kem gözden kötü sözden uzak olsun. İsterse çamurdan olsun. </p><p>Dediği gibi kalbimin: çatıyı pencereyi ne edeyim, dünya benim evim yalnız değilim hiçbir zaman, temiz her kalp benim kardeşim yarın doğmasa bile yeni bir gün, ben bu karanlığın da gözlerinden öperim &nbsp;</p><p>Eyvallah, </p><p><b>Namas Te ❣️</b></p><br><p><br></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">uykusuzlar ...<br><span></span></a>",
+          "textL2": "<p>Ay, dolunkenki (bu nasıl kelime ) uykusuzlar... Merhaba</p><p>Bugün bir arkadaşımın paylaştığı kitap alıntısı tam da kısmet olursa 2017 sonlarında vermeyi planladığım eğitmenlik eğitiminin nasıl olMayacağını anlatıyordu. </p><p>Yoga, asanalardan (duruş) ibaret değildir. Derslerime gelenlere bunu her zaman özellikle vurgulayarak anlatırım. Asanalar elbette yoga disiplininin çok önemli yapı taşlarındandır ama yoga ruhu, yoga yaşama sanatı dendiğinde, dikkate alınması gereken bir çok öğesi vardır bu kadim öğretinin. İstediğin kadar tepe üstü kal,öne ya da geriye doğru bükül... O duruştan çıkıp, o mattan ayrıldıktan sonraki halindir yoganın tamamlayıcısı olan. Kendine ve etrafındakilere, tüm yaşama karşı olan üslubun ve tavrındır. Neyse... bugün karşıma çıkan alıntıdan yaptığım alıntı , Defne Suman'ın, Mavi Orman isimli kitabından: &nbsp;</p><p>\"... &nbsp;<i>Asana tek başına bir amaç haline geldiğinde ise, egoyu şişiren ve zihnin rekabetçi doğasını besleyen bir araca dönüşüyor ve aydınlığa giden yolu tıkıyor. Bu nedenle Batı'da yoganın bir buçuk saatlik asana seanslarıymış gibi anlaşılması yoganın özüne aykırı düşüyor. Bu seanslarda insanlar kendilerini bedenleriyle bir tutmaya, rekabete ve başarı yanılsaması (karmaşık bir poza girmeyi başarı saymak) doğru sürüklenebiliyorlar. Asana, dokuları tıkanıklardan arındıran ve meditasyon sırasında rahat oturmamızı sağlayan bir araçtan başka bir şey değil aslında. ...</i> \"</p><p>(fotoğraflara gelince; işte bunlar hep asana... düzenli pratikle ve disiplinle çalışan herkesin, bedenine en uygun versiyon ile, gerekirse destekler kullanarak yapabileceği, herbiri ayrı ayrı, bir çok faydası olan bir takım şekli şemaller . En son fotoğraftaki çiçekler ise ruhu yoga olanlara... ) </p><p><b>İyi geceler... ❣️</b></p><p><br></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">hayat kısa kuşlar uçuyor ...<br><span></span></a>",
+          "textL3": "<p>Ayinesi iştir kişinin, lafa bakılmaz... Harika insanlar, dersler, terapiler, sohbetler, çalışmalar, yardım faaliyetleri ve hep bir'likte, karşılıklı şifalanmalarla dolu kış sezonunun bitimine iki kala... içim, ruhum, aklım, kalbim dopdolu. Yeni projeler, dersler, kamplar ve terapiler yolda. İlkini bu perşembe başlatacağım enfes bir 21 Günlük Uzak-Yakın Şifa Çalışması hazırladım. Kendim hazırladım diye demiyorum. Vallahi enfes. </p><p>Yeni sezonda da bu çalışmanın tekrarları olacak. Bunca zaman içinde de elbette yine kalbimin sularına bir iki not aldım:  Eleştirmek için eleştirmeye, aydınlığın içindeki karanlığı cımbızla çekmeye, seni zaten hiçbir türlü beğenmemeye eğilimi ve niyeti olandan uzak dur.  Sözlerinde, eylemlerinde ve en önemlisi yaşamlarında sevgi ve denge olanlarla yürü.  </p><p>Bir de... #hayatkısakuşlaruçuyor , sevdiğin işi yap. </p><p><b>Tamam mı kalbim? ❣️</b></p><br><p><b><br></b></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">UYKUSUZLAR / 2 &nbsp;...<br><span></span></a>",
+          "textL4": "<p>Tüm dolunay uykusuzlarına ...\n</p><p>\"Benim meditasyonum çok basit. Zor pratikler gerektirmiyor. Çok basit. Benim meditasyonum şarkı söylemek. Dans etmek. Sessizce oturmak.\" diyen Osho'ya yürekten katılıyorum. </p><p>Meditasyon için özel bir çaba gerekmemelidir. Ruhun, aklın ve kalbin hafiflemesi yeterlidir. </p><p>Yemek yapmayı çok seven birini düşünün. Her bir baharatı gülümseyerek koklayan, sebzeleri bulunmaz hint kumaşları gibi hafifçe dokunarak yıkayan, yemeği pişirirken hafif bir şarkı mırıldanan. Kimisine pasta yapmaktır bazen meditasyon, kimisine ise pastayı yemek. Benim meditasyonum da çok basit. Bugün, tüm gün meditasyon yaptım mesela. Sabah bir sevdiğimle kahvaltı yaptım, üstüne access bars seansı aldım, öğlen başka bir sevdiğimle, en bi çok kıymetlilerime hediyeler baktım, öğleden sonra kızımı okuldan aldım, sarıp sarmaladım. Akşama güzel bir şiir okudum, ona bir resim yaptım (resmi yaparken anladım; bir Van Gogh kolay yetişmiyormuş ). Ruhum kuş gibi şimdi... </p><p><b>İşte bunlar hep meditasyon... ❣️</b></p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left",
+              "color": "#222222"
+            }
+          },
+          "_anchor": "accordion1-k"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#222222"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-l"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "6",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Olmayınca olmuyor, olunmuyor ...<br><span></span></a>",
+          "textL1": "<p>Gri siyah Mayıs olur mu? Oluyor işte... </p><p>Sonradan bilge olur mu? Olmuyor işte. </p><p>Bazen okuyorum eski öğrencilerimin, kendimin ya da tanıdıklarımın yoga ile yaşadıkları/ığımız müthiş değişimleri anlatan yazılarını/mızı. Söz uçar yazı kalırdı eskiden değil mi? Artık yazı da uçuyor. Yazdıklarımızı hayatlarımıza geçirebildiğimiz oranda gerçeğimiz onlar. Aksi takdirde bu, yaşam deneyimimizin en büyük yanılsaması olur. Bizleri okuyanları yanıltmak değil kast ettiğim. Kendi kendimizi yanıltmak. Bir süre sonra inanır oluruz yazıp yapmadıklarımıza. Onları yapıyoruz zannı ile gelişme olasılığımızın önünü keseriz.&nbsp;<span style=\"background-color: inherit;\">Ruhsal gelişim sözle değil eylemle olur. </span></p><p><span style=\"background-color: inherit;\">Dün Asya hastalandı. Öksürük, ateş... Sabaha kadar uyumadık ikimiz de. Yorgun, bitkin kalktık. Sonra Sıdıka geldi. (Fotoğrafta yanımda, dergi okur gibi yapan  ). Bak dedim, seni yazacağım bugün, ona göre. Yaz bacım dedi, herkes duysun. Sıdıka, doğuştan bilgelerden. Hayat biraz çetin sınavlardan geçirmiş onu hep, hala da geçirmekte. Ama nasıl güçlü, dayanıklı... En köşeye sıkıştığımı hissettiğim, mutsuz ya da bitkin olduğum zamanlarda bir sözü, bir hareketi ya da bir keki  ile doğrultuverir bükülmüş belimi. Bugün de bitkin halimizi görünce, baktı ben hiç konuşmuyorum bilmiş bilmiş, susmuşum köşemde; kalk hadi kalk dedi, bahçeye matımı serdi. \"Sen yogonu yapmazsan kendine gelemezsin. Azcık debelen tepen üstü de kafana kan yürüsün. Toparlan.\"  Yani işte bilmek başka, bilmişlik başka, olmaksa bambaşka. </span></p><p><span style=\"background-color: inherit;\"><b>Olmayınca olmuyor, olunmuyor... ❣️&nbsp;</b></span></p><br><p><span style=\"background-color: inherit;\"><b><br></b></span></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">TADA İMA / NOW &amp; HERE / ŞİMDİ ve BURADA \n...<br><span></span></a>",
+          "textL2": "<p><span style=\"background-color: inherit;\">Her gün belli sürelerde yaptığınız meditasyonu bütün gününüze yayabilirseniz uyku ihtiyacınız azalır. Kısa süreli uykularla bile dinç kalabilirsiniz.&nbsp;</span><br><span style=\"background-color: inherit;\"></span></p><p>Bu, meditasyonu yayma işlemi, temel zen prensiplerinde \"tada ima\" yani \" Now and here\" - \"şimdi ve burada\" olarak geçer ve her yaptığını \"orada olarak\", en mükemmel şekilde yapmaya çalışmak (ve bunu yaparken sadece yapılan şeyi düşünmek orada olarak yapmak, sadece yapılan şeyde olmak) olarak da kısa bir şekilde açıklanabilir.\n</p><p>\n</p><p>Mesela şimdi gözlerini kapa... </p><p>Güzel bir nefes al, farkına var nefesinin. Nefes alabiliyor olmanın idrakinde, şükrederek bırak. </p><p>Sonra aç gözlerini. </p><p>Göğe bak, bulutlara, güneşe, yağmura, ağaçlara, kuşlara... Görebiliyor olmanın idrakinde, şükret. </p><p>Bunu yaptıkça güçleneceksin. </p><p>Yaşam enerjisiyle dolacaksın. </p><p>Kendine, çevrene ve bütüne hayrın olacak. </p><p>Bunun için akşamı, yarını, önümüzdeki haftayı beklemeye de gerek yok...</p><p>Ol'mak yeterli. </p><p><b>Tada ima, şimdi ve burada. Ol... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">let go ...<br><span></span></a>",
+          "textL3": "<p>\"<i>Bilmek sanatı, neyi yok sayacağını bilmektir</i>\", demiş Mevlana... Çok düşündüm bu sözünü bir zaman. Sonra yaşadıkça, yaş aldıkça, çok düşünmeme gerek kalmadı. Anlar gibi oldum. En yakınıma alacaklarımı (insan, duygu, düşünce ya da eylem) ya da az ötede tutacaklarımı bildim. \n</p><p>Yok saymak lafı başta acıtıyor insanın içini. Yok sayılacak olan bir \"kişi\" ise ki; bu her zaman böyle olacak diye bir kaide yok, insan, kendi ile epey bir hesaplaşıyor. Ve lakin; ne zaman ki; \"yok sayma\"nın masumiyetini idrak ediyorsun, işte o zaman gönül rahatlığı ile bilmek sanatını icra eder oluyorsun. Arkadan konuşmak, yüz yüze kavgaya tutuşmak, ya da içten içe sinirden kendini yemektense, o kadar masum bir eylem ki yok saymak... Yok saymak, aslında özgür kılmak ve özgür olmak. Hani şu çok meşhur \"let go, let god/çık aradan, çıksın yaradan\" meselesine denk bir durum diyebiliriz. Yalnız bu lafta olmamalı. Diyelim ki, biriyle aranızda yolunda gitmeyen bir şeyler var. Ve bunu hiçbir şekilde ifade etmek istemiyor ya da buna gerek duymuyorsunuz. İşte o zaman bırakma, aradan çıkma sanatına başlıyorsunuz. Bunu çok güzel bir meditasyonla örnekleyeceğim. Her durum ve her kişi için, -mutlaka ama mutlaka sevgi duygusu ile- yapabilirsiniz. Mümkünse akşam, el ayak çekilip, kendinizle baş başa kaldığınız bir vakit seçin:  Gül Meditasyonu (Nilgün hocama sevgilerimle)\n</p><p>Ayaklar yere basacak şekilde yatak ucuna ya da koltuğa oturuyoruz. </p><p>Kapalı gözlerimizin tam karşısına bir gül yerleştiriyoruz (hayal ediyoruz). </p><p>Güle bütün gün olan biten ne varsa anlatıyoruz. </p><p>Belki bir durum, bir olay, bir kişiye karşı hislerimiz ya da onunla aramızdaki mesele vb (Nasıl istersek; konuşarak, zihinden vb) </p><p>Sonra ona bizi dinlediği için teşekkür ediyor ve onu bir havai fişek gibi patlatıyoruz. \"Aha nassı da patlattım seniii\" şeklinde değil asla. Sevgiyle... </p><p>Bunun, hepiniz için en iyisi olacağını bilmenin huzuru ile. </p><p>Şükürle, toprağa külleri karışana dek izleyin. </p><p>Artık hafifsiniz ve de özgür.&nbsp;</p><p><span style=\"background-color: inherit;\"><b>Her ikiniz de    NAMASTE... ❣️</b></span></p><p><br></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">bağzen ...<br><span></span></a>",
+          "textL4": "<p>Her şehirin daha çok ağaca, hikaye anlatıcısına, kahramana ve güler kalpli armağanlara ihtiyacı vardır. </p><p>Bugün, bütün kızlar toplandık, kadın sığınma evlerindeki kızkardeşlerimiz için bir parça iç huzuru, emniyet duygusu, ve gelecek umudu topladık. BaĞzen, baĞzı kimseler, neden daha büyük stüdyolarda, kliniklerde çalışmadığımı, çeşitli eğitimler ve workshoplar ile daha çok para kazanabilecekken bu işlerle uğraştığımı sorarlar. Genelde susarım ama bir cevap verecek olsaydım da şöyle derdim: *Bu dünya bir pencere \n</p><p>Dereler akar gider \n</p><p>Taşları yıkar gider \n</p><p>Bu dünya bir pencere \n</p><p>Her gelen bakar gider \n</p><p>Dere akar bulanık \n</p><p>Köpüğünden alalık \n</p><p>Ha bu ışıklı dünya \n</p><p>Oldu bize karanlık \n</p><p>Gidelim değirmene \n</p><p>Öğütelim unları \n</p><p>Güneşe çevirelim \n</p><p>Bu karanlık günleri...</p><br><p>❣️</p><br><p><br></p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">holdıng back the years ...<br><span></span></a>",
+          "textL5": "<p>15 gün içinde, 1 hafta ara ile 2 kere çok fena düştüm. İki avuç içi, iki diz, bir kaş ve bir de gluteus maximus  travması ile atlattım. Yıllardır bedenin verdiği mesajların veya deneyimlediği sorunların duygusal ya da psikolojik alt yapıları üzerine çalıştığım için, ikinci kez düştüğümde yanımda bulunanlar bana \"iyi misin?\" diye sorarken, ben aklımdan şunu geçiriyordum: \"Aslı, üçüncü kez düşmeden önce, mutlaka neden bunu ard arda yaşadığını bulmalısın\"... Elimdeki ve çevremdeki bir kaç güvenilir kaynağa danıştım: \n</p><p>1. Benim için vazgeçilmez bir kaynak olan \"Messages from the Body, Their Psychological Meanings \" kitabında şöyle diyordu: ihanete uğradığını hissetmek, ya da derin hayal kırıklığı yaşamak insanı düşürür. ( hemm, hayal kırıklığı)\n</p><p>2. Çok kıymetli bilge bir dostumsa şöyle dedi: katı yaklaşım, sert adım, insanı düşürür. ( hemm, belki dedim. Sonra tabii ki bununla ilgili bir şeyi de fark ettim )\n</p><p>\n</p><p>Fark edilmek için gösterilen onca çabanın azıcığını fark etmeye harcasak... Ne düşer ne de düşürürüz. Koşullar nasıl olursa olsun, rüzgar ne yönden eserse essin, sağlam adımlarla ilerleriz hayat yolunda. * <i>\"Hayatın amacı, kendine varmaktır. Oysa herkese yaklaşır, her yere varır, bir tek kendinden uzak kalır insan. Her yeri, her şeyi keşfeder ama kendinde kıpırtısız duran okyanuslardan haberi bile olmaz...</i>\" * demiş ya mürşid, fark etmek mühim, fark etmek, yaşayıp geçtiğini zannetmek değil de; yaşadığını, her yeni nefeste kutsandığını, ve tüm çabana rağmen hala düşüyorsan, seni her seferinde tutacak dostlarının olduğunu bilmek, değil midir kalbim?\n</p><p>\n</p><p>İnsanın sırtını, ayağını, k**ını başını  dayayabileceği bir dostu olmalı hayatta. Hele ki yoga dünyasında... 2000li yılların ilki idi. Türkiye'deki ilk yoga hocamın, kendisinin de yoga pratiğinde çok yeni olmasından belki, hayal kırıklıkları ile başlamıştım yoga yolculuğuma. Bırakma, ya da küsme noktasına geldiğim yoga çalışmalarıma, çeşitli şeylerin vesile olması ile, ama en çok da bedenime, ruhuma, yaşantıma iyi gelmesi nedeniyle devam ettim. İlerledikçe, yurt içi, yurt dışı başka hocalar tanıdıkça, hele ki bazılarının büyük bir şefkatle, içten, kalpten bilgi aktarışlarını gördükçe, derslerime gelen insanların bir çoğu ile karşılıklı şifalandıkça da; \" iyi ki \" dedim. İyi ki devam etmişim. Bırakmamışım. Şimdi belki bu kelimeleri yazarken dinlediğim Simply Red/ Holding back the Years'dan, belki de sol yanımda yükselen yeni aydan, bir kişi yüzünden kopma noktasına gelip, onlarcası sayesinde vazgeçilmezim olan yogaya ve beraberinde yaşamıma armağan ettiği güzel insanlara teşekkür etmek istedim. İyi ki... Kalbimdeki ışık sendekini selamlar, Namaste     </p><br><p>HOLDING BACK THE YEARS</p><p>Thinking of the fear I've had for so long</p><p><span style=\"background-color: inherit;\">When somebody hears</span></p><p>Listen to the fear that's gone\n</p><p>Strangled by the wishes of pater\n</p><p>Hoping for the arm of mater\n</p><p>Get to me sooner or later\n</p><p>\n</p><p>Nothing ever could, yeah\n</p><p>I'll keep holding on\n</p><p>I'll keep holding on\n</p><p>I'll keep holding on\n</p><p>I'll keep holding on\n</p><p>\n</p><p>Chance for me to escape from all I know\n</p><p>Holding back the tears\n</p><p>There's nothing here has grown\n</p><p>I've wasted all my tears\n</p><p>Wasted all those years\n</p><p>Nothing had the chance to be good\n</p><p>\n</p><p>Nothing ever could, yeah\n</p><p>I'll keep holding on\n</p><p>\n</p><p>I'll keep holding on\n</p><p>I'll keep holding on\n</p><p>I'll keep holding on\n</p><p>So tight\n</p><p><b>#simplyred ❣️</b></p><br><p><b><br></b></p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">YAPARIZ BE KALBİM...<br><span></span></a>",
+          "textL6": "<p>Herkesin sarayına kimse karışamaz... </p><p>Elbette bir keşiş değilim. Yemeyi içmeyi, gezmeyi tozmayı, giyim kuşamı severim. Dost meclislerinde akşamı sabah etmeyi, iki kadeh devirip, iki lafın belini kırmayı da severim. Yine de bilirim; hiçbiri olmadan da yaşayabilirim. Ruhumu, çocuk göğüme taşıyan bir uçurtmanın altında, Çatı Sokak'taki sarı koltuğu taht edinebilirim. Gönlümün sarayının sultanı olabilir, dünü ve yarını unutabilirim. Kalbimi dergâh edinir, tefekküre dalarım. Acıma, ağrıma hamd eder, neşeme şükrederim. Eyvallah der, olana ve olacağa, teslim bayrağımı çekerim. Beyaz, sade ve telaşsız... Bunları yapabilirim, yapabiliriz değil mi kalbim? </p><p>*<i>Dünya ile güneş arasına ay girince, dünyanın karanlıkta kaldığını, yaratan ile kul arasına dünya girince, kulun karanlıkta kaldığını</i>* unutmazsak... </p><p><b>yaparız be kalbim.</b>&nbsp;❣️</p><br><p><br></p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "color": "#222222",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "accordion1-m"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-6-1620x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#222222"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-n"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "5",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">KORKMA KALBİM ...<br><span></span></a>",
+          "textL1": "<p>Karantinamın dördüncü gününde yoga yapmak istedim. Zor geldi, gözümde büyüdü. Bıraktım. Satın alınıp, okuma sırasına sokulmuş kitaplar yığınımdan bir kitap çektim. Alfred Adler'in \"İnsanı Tanıma Sanatı\" çıktı. Şöyle diyor bir yerinde: </p><p><i>\"Ormanı anlamak istiyorsanız, yalnızca kıyıda bir ileri bir geri gezinmekle yetinemezsiniz. Ona yaklaşmalı ve içine inmelisiniz, ne kadar tuhaf ve ürkütücü görünürse görünsün.\"</i> </p><p>Yoga derslerimde buna benzer bir öneride bulunurum bazı duruşlarda. Özellikle bir duruşun içinde uzun kaldığımız, uzun uzun esnediğimiz zamanlarda. Esnemekten korkma ama acıya dönüşmesine olanak verme. Esnedikçe o duygunun içine gir. Sana ne hissettiriyor? Bu olumlu bir duygu ise her nefesle onu daha da besle, kuvvetlendir. Yok eğer bu hoşuna gitmeyen bir duyguysa bir adım gerile, korkmadan, kaçmadan... Sadece bir adım gerile ve bu duyguya dışarıdan bak. Onu olumluya dönüştürmen için ne gerekli? Daha fazla zaman, daha fazla nefes... ? </p><p>Bedenine gereken zamanı tanı, telaşsız nefeslerle, zarif hareketlerle ilerlemesine izin ver. İster karanlık bir orman olsun bizi ürküten, isterse de bir yoga duruşu... Önemi olan o ormana ya da o duruşa giden yolda geçen zaman ve o yola çıkılırken atılan ilk adım. Adım atmaktan korkmadan ilerlemeye başlamak... Temkinli ama korkusuz. </p><p>Gandhi'nin dediği gibi: \" Düşmanımız olmalı ise eğer; bu, nefret değildir. Korkudur\". </p><p><b>Korkma kalbim... ❣️</b></p><br><p><b><br></b></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">PENCERE ...<br><span></span></a>",
+          "textL2": "<p>Aşk dile düştü... Gönülde idi oysa ki; bir zamanda bir yerde... Okuduğumuz kitaplardaki kelimelere bakıp okumuyoruz bir çoğumuz. Sarıp sarmaladığımız o yazar, ne diyor aslında? Aslında okusak anlayacağız da, maksat muhabbet olsun. Muhabbet de dile düştü bu aralar. Gıybet oldu adı. Özü iyi insanları gören gözüme, olmayanı iten sözüme, yaşamımdaki bir dolu sevgililerime sevgilerimle... Güzel bir ışık yayılacak bir gün tüm pencerelerden\n</p><p>Gözlerimizi kamaştırarak açtıracak\n</p><p>İster istemez gülümsemeye başlayacağız\n</p><p>Yaz vakti kıyılarda giyilen ince beyaz elbiseler gibi\n</p><p>Hafif ve uçuş uçuş\n</p><p>Dans etmeye başlayacağız parmaklarımızın uçlarında\n</p><p>Görünmez bir el sıvazlayacak sırtlarımızı\n</p><p>\"Bak, geçti...\" diyecek.\n</p><p>Önce inanamayacağız geçtiğine,\n</p><p>Sonra yavaş yavaş fark edince telaşsız sessizliği\n</p><p>Bir şiir dökülecek dudaklarımızdan:\n</p><p>*** \"Sabahleyin,\n</p><p>Karayı kaldırın mavi koyun umudumu yitirmedim\n</p><p>Beni çağırın gülümserken uykunun bir yerinde\n</p><p>Eliniz beyazken uzatın isterim\n</p><p>Karayı kaldırın sevgi koyun umudumu yitirmedim”*** </p><p>( *** Şiir: #gultenakin )</p>❣️<br><p><br></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">ŞİFA OLAN ...<br><span></span></a>",
+          "textL3": "<p>Öfke, sevginin gölge duygusudur demişti, bir yoga öğretmenim. </p><p>Bulunduğumuz eğitim kampında, son kalan kitap için iki yoga eğitmeni adayı arkadaşımız tartışmışlardı. Hocaya göre, kitabın yazarı olan ustaya besledikleri sevgi nedeniyle bu yaşanmıştı. O zaman anlamamıştım pek, ama şimdi baktığımda kendi yaşam deneyimlerime, bir kez daha öğretmenimi sevgiyle anıyorum. </p><p>Hepimiz için öyle değil mi aslında? En sevdiklerimize kırılır, kızarız. Ya da hayatımıza en derinden etki edenlere. Hırs ve kin duygusu karışmış öfke değil bahsettiğim. </p><p>eyaz yalanlar gibi, beyaz öfkelerimiz yok mu? Bir gönül alma ile geçiveren... Ama bunu da abartmamak lazım, tabii. </p><p>Yaşamın her alanında, ilk ve en yakın alanımız olan bedenlerimizden başlayarak, tüm duygu, düşünce ve eylemlerimizde dengeyi yakalamak, her şeyi dozunda ve tadında yaşamak, gölgeleri yok edip, ışık olanı, şifa olanı doğuracaktır.&nbsp;</p><p>❣️</p><br><p><br></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">YANELİM KARANLIĞI BİR'LİKTE ...<br><span></span></a>",
+          "textL4": "<p>\n</p><div>\n</div><div>Namaskar kalbim,\n</div><div>Bu yazıyı okurken, Angelika Akbar'ın \"Love\"ını dinle olur mu? Bu yazıya da fotoğrafa da ilhamım o oldu.&nbsp;<span style=\"background-color: inherit;\">Günlerdir onu dinliyorum, onunla dans ediyor, yoga yapıyorum. Bir video da çektim ama içimden gelmedi yayınlamak. Bu ara içimden pek bir şey yapmak gelmiyor. </span></div><br><div><span style=\"background-color: inherit;\">Benim ülkemde çok yalnızlık var artık. Kaygı ve öfke var. Topraklarımın bereketi, suyumun tadı eksiliyor. </span></div><br><div><span style=\"background-color: inherit;\">Benim ülkemde, kalbim; nefes almak güçleşti. Korku ile nefes almak zor oluyormuş. Bazen bir panik dalgası kaplıyor içimi. Bazense yoğun bir yeis, keder. </span></div><br><div><span style=\"background-color: inherit;\">Kimi zaman neşeleniyorum yine de. Bayağı içten gülebiliyorum. O ana yapışmak, o anda, o duyguda kalmak istiyorum. Ama... o da geçiyor. </span></div><br><div><span style=\"background-color: inherit;\">Şimdi zamanın ağır bir su gibi aktığı bu zamanlarda, sıkça şu soruyu yineliyorum zihnimde: Korkuyu sevgiye nasıl dönüştürebilirim? Çünkü biliyorum, her birimiz bunu yaptığımızda, sevgi kazanacak. Bir kalpten öbürüne, bir evden diğerine, sokaklardan caddelere, şehirlerden ülkeme ve tüm dünyaya sevgi akacak. İçten gülebilecek, yarına güvenebilecek, bir olabileceğiz, biliyorum.&nbsp;</span><span style=\"background-color: inherit;\">Bana hayalperest diyebilirsin, ama biliyorum ki; yalnız değilim*. Ben korkumu, kızıma, eşime dostuma, aileme, işime gücüme, inandığım şeylere sımsıkı sarılarak dönüştürebiliyorum. Sen de kendi cevabını bul.</span></div><br><div><span style=\"background-color: inherit;\">Hadi, kapat gözlerini, inan yapabileceğimize. </span></div><br><div><span style=\"background-color: inherit;\">Yenelim bu karanlığı bir'likte. Hadi kalbim...</span></div><br>❣️<br><div><span style=\"background-color: inherit;\"><br></span></div>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">KOZA ...<br><span></span></a>",
+          "textL5": "<p>Bir insan iyileşmek istemiyorsa, az şey geliyor elden. Aslında hiçbir şey de... yumuşatıyorum biraz. Bu akşam kalbimin sularına bazı notlar yazdım:\n</p><p>sorulmadan cevaplama\n...</p><p>bazen baktığını görme\n...</p><p>bazen de gördüğüne bakma\n...</p><p>vakti gelmeden uçmanın, kozandan çıkma... </p><br><p><b>tamam mı kalbim? </b>\n</p>❣️<br><p><br></p><p><br></p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#222222"
+            },
+            "DIV": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "accordion1-o"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1440x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#222222"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-p"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "1",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">BUMERANG ...<br><span></span></a>",
+          "textL1": "<p>BİR ZAMANda BİR YERde bir sohbette* </p><p>\"-Ne kadar çok ‘ben’ diyorsun…Beni üzdü, bana kızdı, ben sinirlendim, vs, vs…\n</p><p>Ne demiş bilge?\n</p><p><i>‘Ben, ben demeye çıkar hergün biri\n</i></p><p><i>Övünürler altın ve gümüşleriyle, her biri\n</i></p><p><i>İşleri tam düzene girdiği anda,\n</i></p><p><i>Ecel çıkar pusudan der ‘gel beri’…</i>’**\n</p><p>-Çok severim… yazdığı her şeyi okumuşumdur.\n</p><p>- …\n</p><p>- …\n</p><p>- Mesela bir de şu çok hoşuma gitmişti:’Sevgiyle yoğrulmamışsa yüreğin, tekkede manastırda eremezsin…’\n</p><p>- …\n</p><p>- Sustunuz yine...\n</p><p>- Düşünüyordum… Çok okumuşsun… Ama okurken gözün kapalıymış…\n</p><p>- Nasıl?\n</p><p>- Okurken diyorum, gözün kapalıymış… Gönül gözün. Sadece fiziki gözü açık olanlar, yani gözlerini ve gönüllerini zenginlik, mevki, şöhret gibi nefsin hoşuna giden şeylere yönlendirenler manevi güzellikleri, hatta okudukları maneviyat dolu muhteşem dizelerde saklı olan aslı pek göremezler. Gurur ve kibir gibi duygular gözlerini bir sis gibi kaplayıp önlerini görmelerine engel olur. Gözleri gerçekte görmez, kulakları gerçekte duymaz ve kalpleri gerçekte sevmez. Şimdi bir ödev veriyorum sana. Sessizlikte, gözlerin kapalı oturacak ve kapalı gözlerinle kalbine doğru bakacaksın.\n</p><p>-Evet…\n</p><p>-Şu sorunun cevabını orada arayacaksın: Tam burada ve bu anda neden sana bakıyorum?\n</p><p>-Evet…\n</p><p>-...\n</p><p>- \" Cevabı bulduğunda yanıma gel. \" demişti çok çok değerlim olan bir bilge öğretmenim. Şimdi yıllar sonra kalbimle yaptığım tüm sohbetlerde aklıma bu ilk konuşmamız gelir. Şükrederim bir kez daha onunla ve onun gibi insanlarla buluşmuş olmama. Bizler heyecanla, ard arda sorardık sorularımızı. Bazen şakalaşırdık. Hocam, uçacak mıyız? Üçüncü gözümüz açılacak mı?   vs vs... O ise sakinlikle, anlayarak ve şefkatle cevaplardı bizi. Şimdi, hadi sen de kapat gözlerini. Bir soru sor. Üçüncü gözüm açılacak mı olmasın ama bu soru.  Kafanı kurcalayan, enerjini düşüren, seni gereksiz yere meşgul eden bir konu olabilir mesela. Ama tek bir soru. Sonra kapalı gözlerini kalbine çevir. Sakin, telaşsız nefeslerle seyirci ol kalbine. Beklentiye girme, sabırsızlanma... Bir koku, bir his, bir anı, ya da bir ses olarak gelecek cevap. Bil, inan ama bekleme. Bumerang gibi düşün sorunu. Fırlat ve emin ol döneceğinden. </p><p><b>Dene kalbim</b>   \n...</p>❣️<br><p><br></p><p><br></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textL2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "color": "#222222",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "accordion1-q"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-800x1080.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#74640f"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-r"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "6",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">AVOKADO ...<br><span></span></a>",
+          "textL1": "<p>Geçmiş hesaplarını daha tam kapatamadığım bir konuda arkadaşımla konuşurken, benim küçük prensim Asya ( sabah bunu gördüğünde; Annnne! Ne prensi, ben oğlan mıyım yaa? diye coşacak. Ben de ona, mânâda \"Küçük Prens\"in cinsiyetsizliği üzerine uzun bir konuşma yapacağım 500. kez... neyse) şöyle dedi: \"Annnne (kızınca böyle 4 n'li), bu iş artık geçmişte kaldı. Bırak artık... geçti.\" Arkadaşımla birbirimize bakıp, biraz utanarak biraz eğlenerek güldük. </p><p>O an aşk'la, bir kez daha fark ettim, Asya'nın cıvıldayan sesini, parlayan gözlerini, gülümsemesini. Kafamızın içinde yükselen, geçmişe dair, gri siyah monologlar, bizi yaşlandıran şeylerin başında geliyor gibi. Bedenimizi, kalbimizi, ruhumuzu ve de aklımızı eskitiyorlar. Geçmişin tatlı deneyimlerini nasıl ki cebimize atıp, her yere taşıyoruz beraberimizde; acılarından kalan yaşam derslerini de diğer cebe atıp taşırken bugünde ve yarında, faydasız karanlıklarını dünde bırakmak gerek. Bu yaşanmışlıklarla olgunlaşmış ama taze kalmış olmak. Avokado gibi. (evet biraz acıktım) Ya da bir çocuk gibi. Neşe, güç ve yaşam dolu bir halde, an'da kalmak. Paulo Coelho'nun harika sözlerindeki gibi yapmak gerek galiba: “<i>Eğer bir gün yolunuzu kaybederseniz, bir çocuğun gözlerinin içine bakın. Çünkü bir çocuğun bir yetişkine her zaman öğretebileceği üç şey vardır; 1. Nedensiz yere mutlu olmak… 2. Her zaman meşgul olabilecek bir uğraş bulmak… 3. Elde etmek istediği şey için var gücüyle savaşmak.</i>” </p><p>Kolay mı kalbim? Denemeden bilemezsin. Şimdi hemen bir kağıt al eline. Üç başlık aç. </p><p>1. Mutluluk Kaynaklarım (en az bir tane yaz, hiç yok diyorsan; bu yazıyı ve daha nicelerini okuyabilmeni sağlayan \"gözlerini\" yaz) </p><p>2. Yapmak İstediklerim </p><p>3. İkiyi gerçekleştirmek için yapabileceklerim... Düşünceden yazıya, yazıdan eyleme geç. </p><p>Evrenin, bütünün ve kendinin hayrına... </p><p><b>Hadi başla...</b></p>❣️<br><p><br></p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">MANZARALI ODA ...<br><span></span></a>",
+          "textL2": "<p>Her yoga dersimin sonunda şükrederim gördüğüm manzaranın güzelliğine. Benim manzaralı yoga odamın penceresi sessiz zihinlere, telaşsız nefeslere bakar. Bir de hafifçe gülümseyen yüzlere... Titrek bir mum alevine, kadim bilgilerle dolu sayfalara. </p><p>Dışarıda nasıl bir derdimiz, nasıl bir kalp yangınımız olursa olsun... </p><p>Yoga zamanı, bizler için muhteşem manzarası olan bir odada olmak gibidir. Kayboluruz o manzarada, yok oluruz... \"Hiç\" oluruz... </p><p>Hiçlik kolay mı kalbim? Belki bazen... </p><p>manzaralı bir odada iken... </p><br><p><b>Jai</b></p><br><p><br></p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">SENİ AFFEDİYORUM ...<br><span></span></a>",
+          "textL3": "<p>Ablam geçenlerde çok etkilendiği bir filmi anlatırken filmden bir repliği söyleyince tüylerimiz diken diken oldu. </p><p>Filmde, kayıp ağabey ve babalarını arayan iki kardeş sonuçta oldukça trajik bir sürecin sonunda ağabeylerinin aynı zamanda babaları olduğunu öğreniyorlar. Kardeşlerden biri diğerine; \"1+1, 2 etmiyormuş. 1+1, yine 1. \" diyor... Filmdeki konu çok acıklı, acıtıcı, rahatsız edici, iç sıkıcı vs ama benim biraz değişik çalışan kafamda, dolunayın da etkisi ile belki de, filmdeki bu pek fena 1+1=1 formulü dönüştü, dönüştü, dönüştü ve 80000000 + 1 = 1 hayalime getirdi yine beni. Hepimizin babası aynı olsun anlamında değil tabii...  Hepimiz toplanınca 1 olsak.... Yazı ile de bir. Resim ile de. Zihin, ruh ve kalp ile de bir. </p><p>TVler, gazeteler, astrologlar yine pek de iç açıcı olmayan bir süreçten bahsediyor. Bugün ay tamamlanıyor.  Dolunay zamanları yaptığımız ritüellerde bize iyi gelmeyenleri bırakmaya, iyiliğe dönüştürmeye niyet ederiz. Durum, duygu, düşünce... Bu dolunayda bırakmaların yanısıra dönüştürmelere de odaklanmak istiyorum. </p><p>Öncelikle en dürüst, en gerçek hallerimizle bire dönüşebilmemize niyet ediyorum. Ülke geleceği ile ilgili okuduğum, duyduğum tüm negatifleri, hissettiğim tüm korku, kaygı ve bilinmezlik duygularımı güven, emniyet ve huzur duygusuna dönüştürüyorum. \"Güvendeyiz, Huzurluyuz, Dünya ile uyumluyuz\". </p><p>Kendimle, kızımla ve tüm ailemle ilgili kaygılarımı şifa, hayır, mutluluk ve bolluk berekete dönüştürüyorum. \"Güvendeyiz, Sağlıklıyız, Evrenle uyumluyuz, Refah içindeyiz\". </p><p>Ve son olarak; sevip söylemediğim, takdir edip dillendirmediğim, kırılıp sakladığım, kırıp kaçtığım herkese yine en sevdiğim dönüşüm dörtlüğünü yolluyorum. </p><p>Sen de payına düşeni al: </p><p>Seni seviyorum</p><p>Sana teşekkür ediyorum</p><p>Özür dilerim</p><p>Seni affediyorum&nbsp;</p>❣️<br><p><br></p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Aşk, bir an'da...<br><span></span></a>",
+          "textL4": "<p>Aşk, geçici bir körlüktür. / Love, is a temporary blindness. </p><p>Anlam arayışımın devam ettiği tüm zamanlar boyunca, dergah ve/ya aşramlarda... Zikir çeker ve/ya mantra tekrarlarken içim dolar, yüreğim büyürdü. Ve nihayetinde düğümlenmiş boğazımla hüngür hüngür ağlardım. Hangi çatının altında, hangi duvarların arasında olursam olayım, geldiğim ve gideceğim o tek yerin idraki ile sevinç, hüzün ve tövbe yaşlarına boğulurdum. Sonrasında da, her sadhanada, inzivada ya da günlük yoga pratiğinde, aynı bilişle matımın üzerine çok kapanmışlığım oldu. Yaratıcının tüm vecheleri ile, melekler, ağaçlar ve hayvanlar ile konuşmaya başladığımda... artık tüm bedenlerimde varoluşu hissetmeye başladığımda... An'ladım. An'lam, her an'da, her ins'an'da, her hayv'an'da, ve her orm'an'da idi. Bazen kalbimi çal'an'da, bazen sokaktaki kedilerden yağmur yağacağını hissedip verandama sığın'an'da, bazen çiçeklerimi suladığım bir an'da... Artık kalbim; geçmiş hesaplarımı ve de gelecek planlarımı bırakıyorum. Bırakmayı deniyor, bırakmaya niyet ediyorum. Çünkü, aslı'ol'an bu. </p><p>Sen de dene hadi. Birlikte deneyelim. Dünü bırakmayı, yarını planlamamayı, bugünü yaşamayı... </p><p>Dediği gibi o yüksek ruhun; dün dün ile gitti cancağızım, şimdi yeni şeyler söylemek lazım. </p><p>Peki ama aşk bu yazının neresinde? Öyle ya; başlığa bakınca... Aşk nerede? </p><p>Aşk, bir an'da kalbim. </p><p><b>Bu anda ve her anda...</b> &nbsp; &nbsp;</p>❣️<br><p><br></p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">TEŞEKKÜR ...<br><span></span></a>",
+          "textL5": "<p><i>\"Bir çocuğun bir erişkine her zaman öğretebiIeceği üç şey vardır: nedensiz yere mutIu oImak, her zaman meşguI oIabiIecek bir şey buImak ve eIde etmek istediği şeyi var gücüyIe dayatmak\"</i> der Paulo Coelho. </p><p>Asya'ya, burayı sevdin mi dediğimde neşeyle; evet hem de çok, dedi. Ama bak dedim oda çok eski ve tozlu, havuz da küçücük. Hayır anne, dedi; havuz tam bana göre. Oda tozlu olsa ne olur ki? Sileriz. Hem manzara ve yoga salonu çok güzel. Peki dedim, o zaman kalıyoruz. </p><p>Havuza indik. Anne say lütfen dedi, kaç kulaç atabiliyorum. İlk sefer 4tü, ikincide 5 oldu. Hemm dedi yine neşeyle; 5, 4ten iyidir. O cıvıl cıvıl yüzdükçe, havuz büyüdü kocaman oldu. Deniz yakınlaştı. Oraya inerken görmediğim lavantaları, kekikleri, biberiyeleri fark etmeye başladım. Böylelikle, biz yoga kampında kalmaya karar verdik. Hatıra biriktirdik. </p><p>Benim en iyi yoga hocam ve öğrencim Asyam; iyi ki varsın. </p><p>Saf bilgi, neşe ve sevgi dolu bilge ruhundan öperim. </p><p>İki gözüm, bal kızım. </p><p><b>Teşekkür ederim...</b></p><br><p><b>❣️</b></p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">KIRIKSIZ, SÖKÜKSÜZ ...<br><span></span></a>",
+          "textL6": "<p>Günaydın kalbim... </p><p>Çocuk evde dayak yiyorsa, genelde dışarıda saldırgan oluyor. Agresif, tutarsız tavırlar sergileyebiliyor. Vurma hareketini refleks edinebiliyor. </p><p>Yetişkin evde huzurlu değilse, genelde işyerinde, arkadaşlık ilişkilerinde, ikili ilişkilerinde de huzurlu olamıyor. Agresif, tutarsız tavırlar sergileyebiliyor. Vurma hareketini çocuğa göre biraz daha otokontrollü olabileceği için elle olmasa da dille, sözle refleks ediniyor. </p><p>Gerek eğitimim gerekse de işim nedeniyle bir çok yetişkinde iletişimde üslup problemini gözlemleyebiliyorum. Kişi, sevgisizse; sevgi görmüyorsa başkalarından ya da kendi içinde sevgi barındırmıyorsa başkalarına, huzursuz, şiddet yaşamaya ya da yaşatmaya mahkum, mutsuz ve tatminsiz bir hale geliyor. </p><p>Yaşamımda bugüne kadar çok kereler, gerek kendi sevgisizliğim gerekse de başkalarınınki sebebi ile mutsuzluklar yaşadım, ve eminim yaşattım. Bunun farkına vardığımdan beri; günlük rutinime tövbe, hamd ve şükür ekledim. Önce tövbe ederim kırıp dökmelerime, sonra hamd ederim kırılıp döküldüklerime, sonra da şükrederim bunları fark edişlerime... Estagfurullah, elhamdulillah, çok şükür. </p><p>Herkes kendi kalp dilinde konuşabilir. Bunların yerine kendi istediği sözcükleri kullanabilir. En önemlisi şunu diyebilmektir: Sevgi olsun düşüncelerim. </p><p>Düşüncelerim sevgi ile sözcüklere dönsün. </p><p>Sözcüklerim sevgi ile eylemlere... </p><p>İyi bir hafta olsun, kırıksız, söküksüz...</p>❣️<br><p><br></p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#222222",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "accordion1-s"
+        },
+        {
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showSubtitle": true,
+            "showButtons": false,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/img-9185-2000x1333.jpg",
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "0.6"
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "src": "@THEME_PATH@/components/_images/info.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=CluVGS25Kb0",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Kalbimle Sohbetler...</span>",
+          "text": ".<br>.<br>.<br>.<br>.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-primary\" role=\"button\">learn more</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "32px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px",
+              "text-align": "left",
+              "color": "#635c35"
+            },
+            "H1": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "header1-t"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "1",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">EYVALLAH ...<br><span></span></a>",
+          "textL1": "<p><b><br></b></p><br><p><b>Eyvallah...</b> \n</p><p>“Ne güzel sözdür; </p><p>Derviş hâzıra eyvallah demek düşer. </p><p>Çünkü derviş geçmişle kayıtlanmaz, gelecekle de meşgul olmaz. </p><p>Hâle râzı olur. </p><p>Zirâ geçmiş de, gelecek de hep hâlin içindedir.” </p><br><p>(Ken’an Rifâî- Sohbetler) \n</p><p>❣️</p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textL2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left",
+              "color": "#d900ed",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "accordion1-u"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": "4",
+            "showTitle": true,
+            "showText": true,
+            "columns": 1,
+            "tabsLeft": "1",
+            "tabsCenter": "3",
+            "tabsRight": "3",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "title": "FAQ",
+          "text": "Suspendisse gravida tristique ante vel pretium. Curabitur pellente sque non urna in euismod. Pellentesque vestibulum, enim a accumsan convallis, enim sem iaculis sem",
+          "category1": "Aliquam erat volutpat",
+          "category2": "Phasellus non ullamcorper",
+          "category3": "Curabitur faucibus viverra",
+          "category4": "Fusce mattis iaculis",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>This is a accordion Title 1</a>",
+          "title2": "well quality management",
+          "title3": "cooperative work",
+          "title4": "brainstorming",
+          "titleL1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">EYVALLAH ...<br><span></span></a>",
+          "textL1": "<p><b><br></b></p><br><p><b>Eyvallah...</b> \n</p><p>“Ne güzel sözdür; </p><p>Derviş hâzıra eyvallah demek düşer. </p><p>Çünkü derviş geçmişle kayıtlanmaz, gelecekle de meşgul olmaz. </p><p>Hâle râzı olur. </p><p>Zirâ geçmiş de, gelecek de hep hâlin içindedir.” </p><br><p>(Ken’an Rifâî- Sohbetler) \n</p><p>❣️</p>",
+          "titleL2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textL2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textL3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textL4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textL5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleL6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textL6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC1": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textC1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC2": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textC2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC3": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textC3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC4": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textC4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC5": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textC5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleC6": "<a data-toggle=\"collapse\" data-parent=\"#accordionCenter\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textC6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR1": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseOne\" aria-expanded=\"true\" aria-controls=\"collapseOne\">Collapsible Group Item #1<span></span></a>",
+          "textR1": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR2": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseTwo\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Collapsible Group Item #2<span></span></a>",
+          "textR2": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR3": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseThree\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Collapsible Group Item #3<span></span></a>",
+          "textR3": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR4": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">Collapsible Group Item #4<span></span></a>",
+          "textR4": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR5": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">Collapsible Group Item #5<span></span></a>",
+          "textR5": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "titleR6": "<a data-toggle=\"collapse\" data-parent=\"#accordionLeft\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">Collapsible Group Item #6<span></span></a>",
+          "textR6": "<p>Lorem ipsum dolor sit amet, consec tetur adipiscing and brane in bibendum</p>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "accordion1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "text-align": "left",
+              "color": "#d900ed",
+              "font-size": "20px"
+            }
+          },
+          "_anchor": "accordion1-v"
+        }
+      ]
+    }
+  }
+}
