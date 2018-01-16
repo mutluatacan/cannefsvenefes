@@ -8,7 +8,7 @@
       "styling": {
         "primaryColor": "#ff9103",
         "secondaryColor": "#46004C",
-        "successColor": "#2BE080",
+        "successColor": "#222222",
         "infoColor": "#1A5CEB",
         "warningColor": "#E0C119",
         "dangerColor": "#EB5A1A",
@@ -23,7 +23,7 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 44,
+    "uniqCompNum": 48,
     "versionPublish": "4.5.2"
   },
   "pages": {
@@ -102,15 +102,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">İLETİŞİM</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-18\">İLETİŞİM</a></li>",
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/cannefsvenefes-logo-5-455x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
@@ -347,6 +348,187 @@
               "color": "#000000"
             }
           }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "showTitle": true,
+            "showText": true,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColorRadio": true,
+            "bgColor": "#e5e5e5",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "googleMap": {
+              "address": "ankara",
+              "placeId": "ChIJsS1zINVH0xQRjSuEwLBX3As",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 320,
+              "src": "@THEME_PATH@/components/_images/about.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">İletişim Formu</span>",
+          "text": "Bana iletmek istediğiniz her türlü konu için aşağıdaki iletişim formunu kullanabilir ve/veya e-posta yollayabilirsiniz. Namaste...",
+          "title1": "",
+          "title2": "<span class=\"etl-icon icon-envelope mbr-iconfont mbr-iconfont-btn\"></span>e-posta",
+          "title3": "",
+          "text1": "",
+          "text2": "nevasli@yahoo.com",
+          "text3": "",
+          "form": {
+            "title": "MESSAGE",
+            "action": "mutluatacan@gmail.com",
+            "alerts": {
+              "success": "Formu doldurduğunuz için teşekkürler, \nen kısa sürede sizlere geri dönüş sağlanacaktır."
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Adınız*"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "E-postanız*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mesajınız"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"btn btn-black\" type=\"submit\" role=\"button\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">gönder...</a>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-18",
+          "_styles": {
+            "H1": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "25px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "14px",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
+            "bgColorRadio": true,
+            "bgColor": "#222222"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo_white.png"
+            }
+          },
+          "adress": "198 West 21th Street, Suite 721, New York NY5109 Pacific Coast Highway, Los Angeles CA",
+          "phone": "<a href=\"tel:+12 (3) 456 7890 123\" class=\"adr-link\"><b>Phone:</b> +12 (3) 456 7890 123</a>",
+          "email": "<a href=\"mailto:sample@sample.com\" class=\"adr-link\"><b>Email:</b> sample@sample.com</a>",
+          "titleNews": "our news",
+          "mediaNews1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_1.jpg"
+            }
+          },
+          "textNews1": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "mediaNews2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/foot_news_2.jpg"
+            }
+          },
+          "textNews2": "<a href=\"http://mobirise.com\">Pellentesque interdum imper diet nibh in porttitor</a><span class=\"date\">15/05/16</span>",
+          "titleTweet": "lastest links",
+          "tweet1": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet2": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet3": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "tweet4": "<a href=\"http://mobirise.com\" class=\"adr-link\"><b>Alexander Sturg:</b> Curabitur augue elit, egestas vitae erat sed, in the maximus sollicitudin nisi.</a>",
+          "titleInst": "instagram",
+          "mediaInst1": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_1.jpg"
+            }
+          },
+          "mediaInst2": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_2.jpg"
+            }
+          },
+          "mediaInst3": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_3.jpg"
+            }
+          },
+          "mediaInst4": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_4.jpg"
+            }
+          },
+          "mediaInst5": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_5.jpg"
+            }
+          },
+          "mediaInst6": {
+            "image": {
+              "class": "resp-img",
+              "src": "@THEME_PATH@/components/_images/inst_6.jpg"
+            }
+          },
+          "copyright": "<span style=\"font-weight: normal;\">Can Nefs ve Nefes&nbsp;© 2018<br>&nbsp;</span><span style=\"font-weight: normal;\">design by <a href=\"http://www.proteus-imc.com\" target=\"_blank\">PROTEUS-IMC</a><br></span>",
+          "alias": "spacem/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer2",
+          "_anchor": "footer2-1b",
+          "_styles": {
+            "SPAN": {
+              "color": "#ffffff",
+              "font-size": "12px"
+            }
+          }
         }
       ]
     },
@@ -421,15 +603,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">İLETİŞİM</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-18\">İLETİŞİM</a></li>",
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/cannefsvenefes-logo-5-455x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
@@ -814,15 +997,16 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "#222"
           },
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">İLETİŞİM</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-3\">hakkımda</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#text1-4\">atölye hakkında</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#accordion1-8\">program</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">KALBİMLE SOHBETLER</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page1.html\">TAVSİYEM DEĞİL TERCİHİM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://www.instagram.com/aslican._/\" target=\"_blank\">INSTAGRAM</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts1-18\">İLETİŞİM</a></li>",
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/cannefsvenefes-logo-5-455x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
-              "title": ""
+              "link": "index.html",
+              "title": "",
+              "linkInNewWindow": false
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
